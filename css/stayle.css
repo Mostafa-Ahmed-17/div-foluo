@@ -1,0 +1,477 @@
+
+:root{
+    --mainColor : #0078ff ;
+    
+}
+
+
+
+.lodin h2{
+    font-size: 50px;
+}
+
+#btttn{
+    background-color: var(--mainColor);
+    padding:5px 0px 7px 9px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    cursor: pointer;
+z-index: 9999;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+.myfootar{
+    width: 70px;
+}
+.lodin{
+    z-index: 999999999999999999;
+    overflow: hidden;
+
+    background-image: linear-gradient(to right , rgb(2, 29, 77)   ,rgb(39, 22, 46) );
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999999;
+}
+
+
+.navbar .active{
+    background: var(--mainColor);
+}
+
+header{
+    background-image:linear-gradient(#000000a6,#000000a1),
+    url(../images/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+    font-family: system-ui
+    -apple-system
+    "Segoe UI"
+    Roboto
+    "Helvetica Neue"
+    "Noto Sans"
+    "Liberation Sans"
+    Arial
+    sans-serif
+    "Apple Color Emoji"
+    "Segoe UI Emoji"
+    "Segoe UI Symbol"
+    "Noto Color Emoji";
+}
+#about{
+    background-color: #eee;
+    /* background-color: red; */
+}
+
+#about .container{
+    color: white;
+    background-image: linear-gradient(to right , rgb(2, 29, 77) 60%  ,rgb(39, 22, 46) );
+    animation:  2s  infinite inherit;
+}
+
+#about h2{
+    width: fit-content;
+    border-bottom: 3px solid var(--mainColor);
+}
+
+
+.nameSkill{
+    overflow: hidden;
+}
+
+.nameSkill h5{
+    animation: nmSkill 6s ;
+    /* animation-iteration-count: ; */
+}
+
+@keyframes nmSkill{
+
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(110%);
+    }
+}
+
+.skill img{
+transition: 0.7s all;
+}
+.skill img:hover{
+cursor: pointer;
+transform: scale(1.1);
+}
+ 
+
+.sic-1{
+    box-shadow: 1px 1px 5px ;
+    background-color: white;
+}
+.htm{
+    flex-wrap: nowrap;
+    height: 10px;
+    background-image: linear-gradient(to right,var(--mainColor) 85% , #cde1f8 85%  100%);
+}
+.CSS3{
+    height: 10px;
+    background-image: linear-gradient(to right,var(--mainColor)  90% , #cde1f8 90%  100%);
+}
+.pootestrap{
+    height: 10px;
+    background-image: linear-gradient(to right,var(--mainColor)  55% , #cde1f8 55%  100%);
+}
+.js{
+    height: 10px;
+    background-image: linear-gradient(to right,var(--mainColor)  15% , #cde1f8 15%  100%);
+}
+
+#SERVICES{
+    background-color: #eee;
+}
+
+.test::before{
+
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color:var(--mainColor)  ;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+
+#SERVICES  .innar{
+    transition: 0.8s all;
+}
+
+#SERVICES  .innar:hover{
+    transform: scale(1.05);
+}
+
+
+#SERVICES  .innar i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 8px solid var(--mainColor) ;
+    transition:0.7s all;
+    cursor: pointer;
+}
+
+#SERVICES  .innar:hover i{
+    border: 8px solid #aebfd3;
+    background-color: var(--mainColor) ;
+    color: white;
+}
+
+
+#SERVICES .card-footer {
+    background-image: linear-gradient(#0077ff8f , #0077ff8f),url(../images/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#SERVICES .card-footer i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #aebfd3 ;
+}
+
+
+#work h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#work{
+    padding: 50px 0px 0px 0px;
+    background-color: #eee;
+    
+}
+
+
+
+#work .innar{
+overflow: hidden;
+}
+
+#work .innar:hover{
+    cursor: pointer;
+}
+
+#work .innar figure{
+    transition: 0.6s all;
+    overflow: hidden;
+}
+
+#work .innar:hover figure{
+    transform: scale(1.145);
+}
+
+
+#work .innar figcaption .botn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid var(--mainColor);
+}
+
+
+#work .innar figcaption .botn i{
+    color: var(--mainColor);
+}
+
+
+#work .card-footer{
+    background-image: linear-gradient(#0077ff8f, #0077ff8f),url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#work .card-footer  img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+
+}
+
+
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+
+#blog{
+    padding: 30px 10px;
+}
+
+#blog .figc1{
+    position: relative;
+}
+
+#blog .figc1::after{
+    content: "TRAVEL";
+position: absolute;
+top: -25%;
+left: 50%;
+transform: translateX(-50%);
+width: fit-content;
+padding: 3px;
+color: white;
+font-size: 13px;
+border-radius: 5px;
+background-color: var(--mainColor);
+
+}
+
+#blog .figc2{
+    position: relative;
+}
+
+#blog .figc2::after{
+    content: "WEB DESIGN";
+position: absolute;
+top: -25%;
+left: 50%;
+transform: translateX(-50%);
+width: fit-content;
+padding: 3px;
+color: white;
+font-size: 13px;
+border-radius: 5px;
+background-color: var(--mainColor);
+
+}
+
+
+
+
+#blog p{
+    font-size: 12px;
+}
+
+#blog .footer img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+#blog .footer a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+.contact{
+    background-image: linear-gradient(#0077ff8f, #0077ff8f) , url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+.contact h3{
+    font-size: 20px;
+    position: relative;
+    width: fit-content;
+}
+
+.contact h3::before{
+content: "";
+width: 50%;
+height: 3px;
+background-color: var(--mainColor);
+position: absolute;
+bottom: 0;
+left: 0;
+}
+
+.contact .myAccont a{
+    border: 2px solid var(--mainColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: 0.7s all;
+}
+
+.contact .myAccont a:hover{
+
+    border-color: black;
+    background-color: #000;
+    color: white;
+}
+.contact button , footer{
+background-color: var(--mainColor);
+}
+
+footer h6{
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:992px){
+    
+    h1{
+        font-size: 30px;
+    }
+
+    .navbar{
+        padding-left: 5px;
+    }
+    .navbar-expand-lg .navbar-nav li{
+        background-color: var(--mainColor) ;
+        margin-bottom:5px ;
+        text-align: center;
+        border-radius: 15px;
+        transition:0.7s all;
+    }
+    .navbar-expand-lg .navbar-nav li:hover{
+         transform: scale(1.015);
+         background-color: #cde1f8;
+    }
+
+    .navbar-expand-lg .navbar-nav li:visited{
+        background-color: #555;
+    }
+
+
+    .sic-1{
+        box-shadow: 0px 0px 0px;
+
+    }
+
+    .sic-1 figure img{
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width:500px){
+h1{
+    font-size: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
